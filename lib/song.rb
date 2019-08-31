@@ -19,6 +19,7 @@ class Song
     song_name = file_name_parts[1]
     @song = Song.new(song_name)
     @artist = Artist.find_or_create_by_name(artist_name)
-    @song.name = @
+    @song.name = @song 
+    @song.artist = @artist
   end 
 end 
