@@ -22,4 +22,6 @@ class Song
     @song.artist = @artist
     @song
   end 
+  
+  def artist_name=()
 end 
