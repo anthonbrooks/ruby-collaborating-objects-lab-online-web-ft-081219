@@ -9,16 +9,11 @@ class Song
     @@all << self 
   end 
   
-  def name=(name)
-    @name = name 
-  end 
-  
-  def artist=(artist)
-    artist.name = self 
-  end 
-  
   def self.all 
     @@all 
   end 
   
+  def self.new_by_filename
+    
+  end 
 end 
